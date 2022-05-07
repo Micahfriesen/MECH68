@@ -23,8 +23,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define VENDOR_ID 0x5E68
 #define PRODUCT_ID 0x5F00
 #define DEVICE_VER 0x0001
-#define MANUFACTURER umbynos
-#define PRODUCT sick68
+#define MANUFACTURER Micahfriesen
+#define PRODUCT MECH68
 
 /* key matrix size */
 #define MATRIX_ROWS 5
@@ -87,7 +87,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #endif
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
-#define DEBOUNCE 20
+#define DEBOUNCE 5
 
 /* define if matrix has ghost (lacks anti-ghosting diodes) */
 //#define MATRIX_HAS_GHOST
@@ -140,8 +140,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#define NO_ACTION_ONESHOT
 
 /* Bootmagic Lite key configuration */
-// #define BOOTMAGIC_LITE_ROW 0
-// #define BOOTMAGIC_LITE_COLUMN 0
+#define BOOTMAGIC_LITE_ROW 0
+#define BOOTMAGIC_LITE_COLUMN 0
 // The Teensy 4.1 consumes about 100 mA of current at its full speed of 600 MHz
 // as per https://www.pjrc.com/store/teensy41.html
 #define USB_MAX_POWER_CONSUMPTION 100
