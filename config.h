@@ -87,7 +87,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #endif
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
-#define DEBOUNCE 5
+#define DEBOUNCE 10
 
 /* define if matrix has ghost (lacks anti-ghosting diodes) */
 //#define MATRIX_HAS_GHOST
@@ -153,3 +153,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // in clock cycles
 #define GPIO_INPUT_PIN_DELAY 0
+
+#define LED_CAPS_LOCK_PIN LINE_PIN22
